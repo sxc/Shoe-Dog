@@ -11,7 +11,7 @@ struct ProductsView: View {
     var body: some View {
         VStack {
             ProductsHeaderView()
-            Text("Products go here")
+            ProductsContentView()
             Spacer()
         }.background(Color.gray)
     }
