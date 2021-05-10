@@ -15,6 +15,10 @@
 		342909A62648C4C700DF7822 /* ShoePOSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909A42648C4C700DF7822 /* ShoePOSButton.swift */; };
 		342909A82648D10B00DF7822 /* SizeCartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909A72648D10B00DF7822 /* SizeCartItemView.swift */; };
 		342909A92648D10B00DF7822 /* SizeCartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909A72648D10B00DF7822 /* SizeCartItemView.swift */; };
+		342909AB2648D2F200DF7822 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AA2648D2F200DF7822 /* CartItemView.swift */; };
+		342909AC2648D2F200DF7822 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AA2648D2F200DF7822 /* CartItemView.swift */; };
+		342909AE2648DEFD00DF7822 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AD2648DEFD00DF7822 /* CartContentView.swift */; };
+		342909AF2648DEFD00DF7822 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AD2648DEFD00DF7822 /* CartContentView.swift */; };
 		34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD12646373E00D664C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBD2646373B00D664C9 /* ContentView.swift */; };
@@ -40,6 +44,8 @@
 		342909A12648C1AA00DF7822 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		342909A42648C4C700DF7822 /* ShoePOSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSButton.swift; sourceTree = "<group>"; };
 		342909A72648D10B00DF7822 /* SizeCartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCartItemView.swift; sourceTree = "<group>"; };
+		342909AA2648D2F200DF7822 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		342909AD2648DEFD00DF7822 /* CartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartContentView.swift; sourceTree = "<group>"; };
 		34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe_DogApp.swift; sourceTree = "<group>"; };
 		34688FBD2646373B00D664C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34688FBE2646373E00D664C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +156,8 @@
 			children = (
 				34688FE826463E8000D664C9 /* CartTotalView.swift */,
 				342909A72648D10B00DF7822 /* SizeCartItemView.swift */,
+				342909AA2648D2F200DF7822 /* CartItemView.swift */,
+				342909AD2648DEFD00DF7822 /* CartContentView.swift */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -265,12 +273,14 @@
 				3429099F2648BB9400DF7822 /* ProductsContentView.swift in Sources */,
 				34688FE926463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD12646373E00D664C9 /* ContentView.swift in Sources */,
+				342909AE2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A22648C1AA00DF7822 /* StepperView.swift in Sources */,
 				342909A52648C4C700DF7822 /* ShoePOSButton.swift in Sources */,
 				342909A82648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDE264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
 				34688FE626463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
+				342909AB2648D2F200DF7822 /* CartItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +294,14 @@
 				342909A02648BB9400DF7822 /* ProductsContentView.swift in Sources */,
 				34688FEA26463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD22646373E00D664C9 /* ContentView.swift in Sources */,
+				342909AF2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A32648C1AA00DF7822 /* StepperView.swift in Sources */,
 				342909A62648C4C700DF7822 /* ShoePOSButton.swift in Sources */,
 				342909A92648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDF264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
 				34688FE726463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
+				342909AC2648D2F200DF7822 /* CartItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

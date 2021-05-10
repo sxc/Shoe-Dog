@@ -11,7 +11,7 @@ struct CartView: View {
     var body: some View {
         VStack {
             CartHeaderView()
-            Text("Cart goes here")
+            CartContentView()
             Spacer()
             CartTotalView()
         }
