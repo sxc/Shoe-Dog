@@ -19,6 +19,20 @@
 		342909AC2648D2F200DF7822 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AA2648D2F200DF7822 /* CartItemView.swift */; };
 		342909AE2648DEFD00DF7822 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AD2648DEFD00DF7822 /* CartContentView.swift */; };
 		342909AF2648DEFD00DF7822 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909AD2648DEFD00DF7822 /* CartContentView.swift */; };
+		345DEF2F264A182C0088C22E /* CKContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF29264A182B0088C22E /* CKContainer+Extension.swift */; };
+		345DEF30264A182C0088C22E /* CKContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF29264A182B0088C22E /* CKContainer+Extension.swift */; };
+		345DEF31264A182C0088C22E /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2A264A182B0088C22E /* ProductItem.swift */; };
+		345DEF32264A182C0088C22E /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2A264A182B0088C22E /* ProductItem.swift */; };
+		345DEF33264A182C0088C22E /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2B264A182B0088C22E /* Size.swift */; };
+		345DEF34264A182C0088C22E /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2B264A182B0088C22E /* Size.swift */; };
+		345DEF35264A182C0088C22E /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2C264A182C0088C22E /* Brand.swift */; };
+		345DEF36264A182C0088C22E /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2C264A182C0088C22E /* Brand.swift */; };
+		345DEF37264A182C0088C22E /* CKConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2D264A182C0088C22E /* CKConstant.swift */; };
+		345DEF38264A182C0088C22E /* CKConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2D264A182C0088C22E /* CKConstant.swift */; };
+		345DEF39264A182C0088C22E /* BrandItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2E264A182C0088C22E /* BrandItem.swift */; };
+		345DEF3A264A182C0088C22E /* BrandItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2E264A182C0088C22E /* BrandItem.swift */; };
+		345DEF3C264A19B00088C22E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3B264A19B00088C22E /* Product.swift */; };
+		345DEF3D264A19B00088C22E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3B264A19B00088C22E /* Product.swift */; };
 		34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD12646373E00D664C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBD2646373B00D664C9 /* ContentView.swift */; };
@@ -37,6 +51,7 @@
 		34688FEF264640CB00D664C9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FED264640CB00D664C9 /* CartView.swift */; };
 		34688FF12646438900D664C9 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FF02646438900D664C9 /* ProductView.swift */; };
 		34688FF22646438900D664C9 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FF02646438900D664C9 /* ProductView.swift */; };
+		34C1B71D26490BFE002B8302 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C1B71C26490BFE002B8302 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +61,13 @@
 		342909A72648D10B00DF7822 /* SizeCartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCartItemView.swift; sourceTree = "<group>"; };
 		342909AA2648D2F200DF7822 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
 		342909AD2648DEFD00DF7822 /* CartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartContentView.swift; sourceTree = "<group>"; };
+		345DEF29264A182B0088C22E /* CKContainer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CKContainer+Extension.swift"; sourceTree = "<group>"; };
+		345DEF2A264A182B0088C22E /* ProductItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		345DEF2B264A182B0088C22E /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		345DEF2C264A182C0088C22E /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		345DEF2D264A182C0088C22E /* CKConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKConstant.swift; sourceTree = "<group>"; };
+		345DEF2E264A182C0088C22E /* BrandItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandItem.swift; sourceTree = "<group>"; };
+		345DEF3B264A19B00088C22E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe_DogApp.swift; sourceTree = "<group>"; };
 		34688FBD2646373B00D664C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34688FBE2646373E00D664C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +82,8 @@
 		34688FE826463E8000D664C9 /* CartTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTotalView.swift; sourceTree = "<group>"; };
 		34688FED264640CB00D664C9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		34688FF02646438900D664C9 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		34C1B71A26490BEE002B8302 /* Shoe Dog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Shoe Dog.entitlements"; sourceTree = "<group>"; };
+		34C1B71C26490BFE002B8302 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C1B71D26490BFE002B8302 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,19 +105,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		345DEF28264A18110088C22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				345DEF2C264A182C0088C22E /* Brand.swift */,
+				345DEF2E264A182C0088C22E /* BrandItem.swift */,
+				345DEF2D264A182C0088C22E /* CKConstant.swift */,
+				345DEF29264A182B0088C22E /* CKContainer+Extension.swift */,
+				345DEF2A264A182B0088C22E /* ProductItem.swift */,
+				345DEF2B264A182B0088C22E /* Size.swift */,
+				345DEF3B264A19B00088C22E /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		34688FB62646373A00D664C9 = {
 			isa = PBXGroup;
 			children = (
+				34C1B71A26490BEE002B8302 /* Shoe Dog.entitlements */,
 				34688FBB2646373B00D664C9 /* Shared */,
 				34688FC52646373E00D664C9 /* iOS */,
 				34688FCC2646373E00D664C9 /* macOS */,
 				34688FC42646373E00D664C9 /* Products */,
+				34C1B71B26490BFE002B8302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		34688FBB2646373B00D664C9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				345DEF28264A18110088C22E /* Model */,
 				34688FEC264640B400D664C9 /* Views */,
 				34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */,
 				34688FBD2646373B00D664C9 /* ContentView.swift */,
@@ -168,6 +210,14 @@
 				34688FED264640CB00D664C9 /* CartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		34C1B71B26490BFE002B8302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34C1B71C26490BFE002B8302 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,20 +317,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345DEF39264A182C0088C22E /* BrandItem.swift in Sources */,
 				34688FF12646438900D664C9 /* ProductView.swift in Sources */,
+				345DEF35264A182C0088C22E /* Brand.swift in Sources */,
+				345DEF37264A182C0088C22E /* CKConstant.swift in Sources */,
 				34688FE326463A4F00D664C9 /* ProductsView.swift in Sources */,
 				34688FEE264640CB00D664C9 /* CartView.swift in Sources */,
 				3429099F2648BB9400DF7822 /* ProductsContentView.swift in Sources */,
+				345DEF33264A182C0088C22E /* Size.swift in Sources */,
 				34688FE926463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD12646373E00D664C9 /* ContentView.swift in Sources */,
+				345DEF2F264A182C0088C22E /* CKContainer+Extension.swift in Sources */,
 				342909AE2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A22648C1AA00DF7822 /* StepperView.swift in Sources */,
 				342909A52648C4C700DF7822 /* ShoePOSButton.swift in Sources */,
 				342909A82648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDE264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
+				345DEF31264A182C0088C22E /* ProductItem.swift in Sources */,
 				34688FE626463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
 				342909AB2648D2F200DF7822 /* CartItemView.swift in Sources */,
+				345DEF3C264A19B00088C22E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,20 +345,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345DEF3A264A182C0088C22E /* BrandItem.swift in Sources */,
 				34688FF22646438900D664C9 /* ProductView.swift in Sources */,
+				345DEF36264A182C0088C22E /* Brand.swift in Sources */,
+				345DEF38264A182C0088C22E /* CKConstant.swift in Sources */,
 				34688FE426463A4F00D664C9 /* ProductsView.swift in Sources */,
 				34688FEF264640CB00D664C9 /* CartView.swift in Sources */,
 				342909A02648BB9400DF7822 /* ProductsContentView.swift in Sources */,
+				345DEF34264A182C0088C22E /* Size.swift in Sources */,
 				34688FEA26463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD22646373E00D664C9 /* ContentView.swift in Sources */,
+				345DEF30264A182C0088C22E /* CKContainer+Extension.swift in Sources */,
 				342909AF2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A32648C1AA00DF7822 /* StepperView.swift in Sources */,
 				342909A62648C4C700DF7822 /* ShoePOSButton.swift in Sources */,
 				342909A92648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDF264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
+				345DEF32264A182C0088C22E /* ProductItem.swift in Sources */,
 				34688FE726463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
 				342909AC2648D2F200DF7822 /* CartItemView.swift in Sources */,
+				345DEF3D264A19B00088C22E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shoe Dog.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SX2P37942F;
 				ENABLE_PREVIEWS = YES;
@@ -446,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shoe Dog.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SX2P37942F;
 				ENABLE_PREVIEWS = YES;
