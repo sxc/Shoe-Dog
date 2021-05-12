@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341EF24F264B6A0A009E8D1C /* ShoePOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EF24E264B6A0A009E8D1C /* ShoePOSView.swift */; };
+		341EF250264B6A0A009E8D1C /* ShoePOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EF24E264B6A0A009E8D1C /* ShoePOSView.swift */; };
 		3429099F2648BB9400DF7822 /* ProductsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429099E2648BB9400DF7822 /* ProductsContentView.swift */; };
 		342909A02648BB9400DF7822 /* ProductsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429099E2648BB9400DF7822 /* ProductsContentView.swift */; };
 		342909A22648C1AA00DF7822 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342909A12648C1AA00DF7822 /* StepperView.swift */; };
@@ -57,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341EF24E264B6A0A009E8D1C /* ShoePOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSView.swift; sourceTree = "<group>"; };
 		3429099E2648BB9400DF7822 /* ProductsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsContentView.swift; sourceTree = "<group>"; };
 		342909A12648C1AA00DF7822 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		342909A42648C4C700DF7822 /* ShoePOSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSButton.swift; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 				345DEF2A264A182B0088C22E /* ProductItem.swift */,
 				345DEF2B264A182B0088C22E /* Size.swift */,
 				345DEF3B264A19B00088C22E /* Product.swift */,
+				341EF24E264B6A0A009E8D1C /* ShoePOSView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -347,6 +351,7 @@
 				342909A82648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDE264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
 				345DEF31264A182C0088C22E /* ProductItem.swift in Sources */,
+				341EF24F264B6A0A009E8D1C /* ShoePOSView.swift in Sources */,
 				34688FE626463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
 				342909AB2648D2F200DF7822 /* CartItemView.swift in Sources */,
@@ -376,6 +381,7 @@
 				342909A92648D10B00DF7822 /* SizeCartItemView.swift in Sources */,
 				34688FDF264637AF00D664C9 /* ProductsHeaderView.swift in Sources */,
 				345DEF32264A182C0088C22E /* ProductItem.swift in Sources */,
+				341EF250264B6A0A009E8D1C /* ShoePOSView.swift in Sources */,
 				34688FE726463D7600D664C9 /* CartHeaderView.swift in Sources */,
 				34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */,
 				342909AC2648D2F200DF7822 /* CartItemView.swift in Sources */,
