@@ -33,6 +33,8 @@
 		345DEF3A264A182C0088C22E /* BrandItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF2E264A182C0088C22E /* BrandItem.swift */; };
 		345DEF3C264A19B00088C22E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3B264A19B00088C22E /* Product.swift */; };
 		345DEF3D264A19B00088C22E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3B264A19B00088C22E /* Product.swift */; };
+		345DEF40264A2AC60088C22E /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3F264A2AC60088C22E /* CloudKitHelper.swift */; };
+		345DEF41264A2AC60088C22E /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DEF3F264A2AC60088C22E /* CloudKitHelper.swift */; };
 		34688FCF2646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD02646373E00D664C9 /* Shoe_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */; };
 		34688FD12646373E00D664C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34688FBD2646373B00D664C9 /* ContentView.swift */; };
@@ -68,6 +70,7 @@
 		345DEF2D264A182C0088C22E /* CKConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKConstant.swift; sourceTree = "<group>"; };
 		345DEF2E264A182C0088C22E /* BrandItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandItem.swift; sourceTree = "<group>"; };
 		345DEF3B264A19B00088C22E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		345DEF3F264A2AC60088C22E /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
 		34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe_DogApp.swift; sourceTree = "<group>"; };
 		34688FBD2646373B00D664C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34688FBE2646373E00D664C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +122,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		345DEF3E264A2AAE0088C22E /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				345DEF3F264A2AC60088C22E /* CloudKitHelper.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
 		34688FB62646373A00D664C9 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +145,7 @@
 		34688FBB2646373B00D664C9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				345DEF3E264A2AAE0088C22E /* CloudKit */,
 				345DEF28264A18110088C22E /* Model */,
 				34688FEC264640B400D664C9 /* Views */,
 				34688FBC2646373B00D664C9 /* Shoe_DogApp.swift */,
@@ -327,6 +339,7 @@
 				345DEF33264A182C0088C22E /* Size.swift in Sources */,
 				34688FE926463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD12646373E00D664C9 /* ContentView.swift in Sources */,
+				345DEF40264A2AC60088C22E /* CloudKitHelper.swift in Sources */,
 				345DEF2F264A182C0088C22E /* CKContainer+Extension.swift in Sources */,
 				342909AE2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A22648C1AA00DF7822 /* StepperView.swift in Sources */,
@@ -355,6 +368,7 @@
 				345DEF34264A182C0088C22E /* Size.swift in Sources */,
 				34688FEA26463E8000D664C9 /* CartTotalView.swift in Sources */,
 				34688FD22646373E00D664C9 /* ContentView.swift in Sources */,
+				345DEF41264A2AC60088C22E /* CloudKitHelper.swift in Sources */,
 				345DEF30264A182C0088C22E /* CKContainer+Extension.swift in Sources */,
 				342909AF2648DEFD00DF7822 /* CartContentView.swift in Sources */,
 				342909A32648C1AA00DF7822 /* StepperView.swift in Sources */,
